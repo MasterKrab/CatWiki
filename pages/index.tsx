@@ -21,7 +21,7 @@ interface HomeProps {
 
 const Home = ({ breeds }: HomeProps) => (
 	<>
-		<Metadata title="Cat Wiki" />
+		<Metadata title="Home" />
 		<Introduction />
 		<Breeds breeds={breeds} />
 		<Information />

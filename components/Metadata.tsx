@@ -7,7 +7,7 @@ interface MetadataProps {
 
 const Metadata = ({ title, description = 'Find out more about cats' }: MetadataProps) => (
 	<Head>
-		<title>{title ? `${title} | Cat Wiki` : 'Cat Wiki'}</title>
+		<title>{title ? `${title} | CatWiki` : 'CatWiki'}</title>
 		<meta name="description" content={description} />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content={process.env.NEXT_PUBLIC_URL} />
