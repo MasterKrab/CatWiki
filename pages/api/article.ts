@@ -8,7 +8,7 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
 
 	const { vetstreet_url } = getRandomElement(results)
 
-	response.redirect(vetstreet_url)
+	response.redirect(301, vetstreet_url)
 }
 
 export default handler
