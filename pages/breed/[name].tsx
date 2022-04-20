@@ -95,8 +95,8 @@ const BreedInfo = ({ breed, photos }: BreedInfoProps) => {
 				.article__image-container {
 					position: relative;
 					display: flex;
-					width: 20rem;
-					height: 20rem;
+					width: 18rem;
+					height: 18rem;
 				}
 
 				@media screen and (min-width: 75rem) {

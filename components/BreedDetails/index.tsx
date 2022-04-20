@@ -45,8 +45,13 @@ const BreedDetails = ({
 				display: grid;
 				grid-template-columns: 1fr;
 				gap: 1rem;
-				width: min-content;
 				color: var(--primary-color);
+			}
+
+			@media screen and (min-width: 48rem) {
+				.list {
+					width: min-content;
+				}
 			}
 
 			@media screen and (min-width: 75rem) {

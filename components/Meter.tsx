@@ -31,14 +31,27 @@ const Meter = ({ value, min, max, labelId }: MeterProps) => (
 		<style jsx>{`
 			.meter {
 				display: inline-flex;
+				align-items: center;
 				gap: 0.531rem;
 			}
 
 			.meter__bar {
 				background-color: var(--meter-bar-color);
-				width: 3.75rem;
+				width: 0.75rem;
 				height: 0.75rem;
 				border-radius: 0.5rem;
+			}
+
+			@media screen and (min-width: 21.875rem) {
+				.meter__bar {
+					width: 2rem;
+				}
+			}
+
+			@media screen and (min-width: 48rem) {
+				.meter__bar {
+					width: 3.75rem;
+				}
 			}
 
 			.meter__bar--active {

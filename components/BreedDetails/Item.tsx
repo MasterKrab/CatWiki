@@ -18,10 +18,13 @@ const Item = ({ name, value }: ItemProps) => {
 				.item-meter {
 					display: grid;
 					grid-template-columns: 1fr 1fr;
+					gap: 2rem;
 				}
 
-				.item {
-					width: max-content;
+				@media screen and (min-width: 48rem) {
+					.item {
+						width: max-content;
+					}
 				}
 			`}</style>
 		</>
