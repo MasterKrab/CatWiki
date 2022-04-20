@@ -13,7 +13,7 @@ const Footer = () => (
 					sizes="(max-width: 768px) 73px 20px"
 				/>
 			</div>
-			<small className="small">© devChallenge.io 2021</small>
+			<small className="small">Challenge from © devChallenge.io 2021</small>
 		</footer>
 		<style jsx>{`
 			.footer {
